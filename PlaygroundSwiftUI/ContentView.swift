@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    // NavigationRouter
+    @StateObject var router = NavigationRouter()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack(path: $router.items) {
+            ScrollView([.vertical]) {
+                VStack(spacing: 20) {
+                    Spacer().frame(height: 20)
+                    Button("MatchedGeometryEffectTest") {
+                        router.items.append(.matchedGeometryEffectTest)
+                    }
+                    Spacer().frame(height: 20)
+                }
+            }
+            .setNavigationDestination()
+            .navigationTitle("HOME")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .padding()
+        .environmentObject(router)
     }
 }
 

@@ -14,6 +14,8 @@
 		E12126062C27257500D14B3C /* PlaygroundSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12126052C27257500D14B3C /* PlaygroundSwiftUITests.swift */; };
 		E12126102C27257500D14B3C /* PlaygroundSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E121260F2C27257500D14B3C /* PlaygroundSwiftUIUITests.swift */; };
 		E12126122C27257500D14B3C /* PlaygroundSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12126112C27257500D14B3C /* PlaygroundSwiftUIUITestsLaunchTests.swift */; };
+		E1F430142C27261F00ECB73E /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F430132C27261F00ECB73E /* NavigationUtil.swift */; };
+		E1F430172C27271400ECB73E /* MatchedGeometryEffectTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		E121260B2C27257500D14B3C /* PlaygroundSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E121260F2C27257500D14B3C /* PlaygroundSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundSwiftUIUITests.swift; sourceTree = "<group>"; };
 		E12126112C27257500D14B3C /* PlaygroundSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1F430132C27261F00ECB73E /* NavigationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
+		E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,12 @@
 		E12125F32C27257400D14B3C /* PlaygroundSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				E12125F42C27257400D14B3C /* PlaygroundSwiftUIApp.swift */,
-				E12125F62C27257400D14B3C /* ContentView.swift */,
 				E12125F82C27257500D14B3C /* Assets.xcassets */,
+				E12125F62C27257400D14B3C /* ContentView.swift */,
+				E12125F42C27257400D14B3C /* PlaygroundSwiftUIApp.swift */,
 				E12125FA2C27257500D14B3C /* Preview Content */,
+				E1F430122C27261000ECB73E /* Utils */,
+				E1F430152C2726EF00ECB73E /* Views */,
 			);
 			path = PlaygroundSwiftUI;
 			sourceTree = "<group>";
@@ -125,6 +131,22 @@
 				E12126112C27257500D14B3C /* PlaygroundSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = PlaygroundSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		E1F430122C27261000ECB73E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E1F430132C27261F00ECB73E /* NavigationUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E1F430152C2726EF00ECB73E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F430172C27271400ECB73E /* MatchedGeometryEffectTestView.swift in Sources */,
 				E12125F72C27257400D14B3C /* ContentView.swift in Sources */,
 				E12125F52C27257400D14B3C /* PlaygroundSwiftUIApp.swift in Sources */,
+				E1F430142C27261F00ECB73E /* NavigationUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
