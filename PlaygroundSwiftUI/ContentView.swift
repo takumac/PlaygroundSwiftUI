@@ -20,6 +20,10 @@ struct ContentView: View {
                         router.items.append(.matchedGeometryEffectTest)
                     }
                     Spacer().frame(height: 20)
+                    Button("BookShapeTest") {
+                        router.items.append(.bookShapeTest)
+                    }
+                    Spacer().frame(height: 20)
                 }
             }
             .setNavigationDestination()
