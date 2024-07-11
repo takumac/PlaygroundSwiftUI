@@ -17,6 +17,7 @@ final class NavigationRouter: ObservableObject {
     enum NavigationItem: Hashable {
         case matchedGeometryEffectTest
         case bookShapeTest
+        case customTextTest
     }
 }
 
@@ -31,6 +32,8 @@ struct NavigationDestination: ViewModifier {
                     MatchedGeometryEffectTestView()
                 case .bookShapeTest:
                     BookShapeTestView()
+                case .customTextTest:
+                    CustomTextTestView()
                 }
             }
     }

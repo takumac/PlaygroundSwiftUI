@@ -24,6 +24,10 @@ struct ContentView: View {
                         router.items.append(.bookShapeTest)
                     }
                     Spacer().frame(height: 20)
+                    Button("CustomTextTest") {
+                        router.items.append(.customTextTest)
+                    }
+                    Spacer().frame(height: 20)
                 }
             }
             .setNavigationDestination()
