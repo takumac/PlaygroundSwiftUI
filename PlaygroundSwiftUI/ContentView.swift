@@ -28,6 +28,10 @@ struct ContentView: View {
                         router.items.append(.customTextTest)
                     }
                     Spacer().frame(height: 20)
+                    Button("BoundingBoxTest") {
+                        router.items.append(.boundingBoxTest)
+                    }
+                    Spacer().frame(height: 20)
                 }
             }
             .setNavigationDestination()

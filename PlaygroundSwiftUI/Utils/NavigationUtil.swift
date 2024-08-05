@@ -18,6 +18,7 @@ final class NavigationRouter: ObservableObject {
         case matchedGeometryEffectTest
         case bookShapeTest
         case customTextTest
+        case boundingBoxTest
     }
 }
 
@@ -34,6 +35,8 @@ struct NavigationDestination: ViewModifier {
                     BookShapeTestView()
                 case .customTextTest:
                     CustomTextTestView()
+                case .boundingBoxTest:
+                    BoundingBoxTestView()
                 }
             }
     }

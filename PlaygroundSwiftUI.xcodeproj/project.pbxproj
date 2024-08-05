@@ -16,6 +16,17 @@
 		E12126122C27257500D14B3C /* PlaygroundSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12126112C27257500D14B3C /* PlaygroundSwiftUIUITestsLaunchTests.swift */; };
 		E155A3282C3FB10400CA42F1 /* CustomTextTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155A3272C3FB10400CA42F1 /* CustomTextTestView.swift */; };
 		E16F0D122C3E5C66006478C2 /* BookShapeTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16F0D112C3E5C66006478C2 /* BookShapeTestView.swift */; };
+		E197A9E42C6081AC0010C1D3 /* BoundingBoxTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9E32C6081AC0010C1D3 /* BoundingBoxTestView.swift */; };
+		E197A9E72C60A34D0010C1D3 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9E62C60A34D0010C1D3 /* BoundingBox.swift */; };
+		E197A9E92C60A3890010C1D3 /* EditFormType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9E82C60A3890010C1D3 /* EditFormType.swift */; };
+		E197A9EC2C60A3E90010C1D3 /* EditPointsFramedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9EB2C60A3E90010C1D3 /* EditPointsFramedRectangle.swift */; };
+		E197A9EE2C60A42B0010C1D3 /* MovingDashFramedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9ED2C60A42B0010C1D3 /* MovingDashFramedRectangle.swift */; };
+		E197A9F12C60A4870010C1D3 /* EditPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9F02C60A4870010C1D3 /* EditPoint.swift */; };
+		E197A9F32C60A49F0010C1D3 /* EditPointMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9F22C60A49F0010C1D3 /* EditPointMark.swift */; };
+		E197A9F62C60A4C70010C1D3 /* EditPointFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9F52C60A4C70010C1D3 /* EditPointFrame.swift */; };
+		E197A9F82C60A4E00010C1D3 /* EditPointPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9F72C60A4DF0010C1D3 /* EditPointPosition.swift */; };
+		E197A9FA2C60A4F90010C1D3 /* EditPointScaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9F92C60A4F90010C1D3 /* EditPointScaling.swift */; };
+		E197A9FD2C60A5670010C1D3 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9FC2C60A5670010C1D3 /* View+Extension.swift */; };
 		E1F430142C27261F00ECB73E /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F430132C27261F00ECB73E /* NavigationUtil.swift */; };
 		E1F430172C27271400ECB73E /* MatchedGeometryEffectTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +61,17 @@
 		E12126112C27257500D14B3C /* PlaygroundSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E155A3272C3FB10400CA42F1 /* CustomTextTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextTestView.swift; sourceTree = "<group>"; };
 		E16F0D112C3E5C66006478C2 /* BookShapeTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShapeTestView.swift; sourceTree = "<group>"; };
+		E197A9E32C6081AC0010C1D3 /* BoundingBoxTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxTestView.swift; sourceTree = "<group>"; };
+		E197A9E62C60A34D0010C1D3 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		E197A9E82C60A3890010C1D3 /* EditFormType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFormType.swift; sourceTree = "<group>"; };
+		E197A9EB2C60A3E90010C1D3 /* EditPointsFramedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPointsFramedRectangle.swift; sourceTree = "<group>"; };
+		E197A9ED2C60A42B0010C1D3 /* MovingDashFramedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingDashFramedRectangle.swift; sourceTree = "<group>"; };
+		E197A9F02C60A4870010C1D3 /* EditPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPoint.swift; sourceTree = "<group>"; };
+		E197A9F22C60A49F0010C1D3 /* EditPointMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPointMark.swift; sourceTree = "<group>"; };
+		E197A9F52C60A4C70010C1D3 /* EditPointFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPointFrame.swift; sourceTree = "<group>"; };
+		E197A9F72C60A4DF0010C1D3 /* EditPointPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPointPosition.swift; sourceTree = "<group>"; };
+		E197A9F92C60A4F90010C1D3 /* EditPointScaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPointScaling.swift; sourceTree = "<group>"; };
+		E197A9FC2C60A5670010C1D3 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		E1F430132C27261F00ECB73E /* NavigationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
 		E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,9 +124,10 @@
 		E12125F32C27257400D14B3C /* PlaygroundSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				E12125F82C27257500D14B3C /* Assets.xcassets */,
 				E12125F62C27257400D14B3C /* ContentView.swift */,
 				E12125F42C27257400D14B3C /* PlaygroundSwiftUIApp.swift */,
+				E12125F82C27257500D14B3C /* Assets.xcassets */,
+				E197A9FB2C60A5490010C1D3 /* Extensions */,
 				E12125FA2C27257500D14B3C /* Preview Content */,
 				E1F430122C27261000ECB73E /* Utils */,
 				E1F430152C2726EF00ECB73E /* Views */,
@@ -137,6 +160,54 @@
 			path = PlaygroundSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		E197A9E52C60A3200010C1D3 /* BoundingBox */ = {
+			isa = PBXGroup;
+			children = (
+				E197A9E62C60A34D0010C1D3 /* BoundingBox.swift */,
+				E197A9E82C60A3890010C1D3 /* EditFormType.swift */,
+				E197A9EA2C60A3A60010C1D3 /* Components */,
+			);
+			path = BoundingBox;
+			sourceTree = "<group>";
+		};
+		E197A9EA2C60A3A60010C1D3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E197A9EF2C60A45C0010C1D3 /* EditPoint */,
+				E197A9EB2C60A3E90010C1D3 /* EditPointsFramedRectangle.swift */,
+				E197A9ED2C60A42B0010C1D3 /* MovingDashFramedRectangle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E197A9EF2C60A45C0010C1D3 /* EditPoint */ = {
+			isa = PBXGroup;
+			children = (
+				E197A9F02C60A4870010C1D3 /* EditPoint.swift */,
+				E197A9F22C60A49F0010C1D3 /* EditPointMark.swift */,
+				E197A9F42C60A4B20010C1D3 /* Entity */,
+			);
+			path = EditPoint;
+			sourceTree = "<group>";
+		};
+		E197A9F42C60A4B20010C1D3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E197A9F52C60A4C70010C1D3 /* EditPointFrame.swift */,
+				E197A9F72C60A4DF0010C1D3 /* EditPointPosition.swift */,
+				E197A9F92C60A4F90010C1D3 /* EditPointScaling.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E197A9FB2C60A5490010C1D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E197A9FC2C60A5670010C1D3 /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E1F430122C27261000ECB73E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				E16F0D112C3E5C66006478C2 /* BookShapeTestView.swift */,
+				E197A9E52C60A3200010C1D3 /* BoundingBox */,
+				E197A9E32C6081AC0010C1D3 /* BoundingBoxTestView.swift */,
 				E155A3272C3FB10400CA42F1 /* CustomTextTestView.swift */,
 				E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */,
 			);
@@ -285,12 +358,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E197A9F82C60A4E00010C1D3 /* EditPointPosition.swift in Sources */,
 				E155A3282C3FB10400CA42F1 /* CustomTextTestView.swift in Sources */,
+				E197A9FA2C60A4F90010C1D3 /* EditPointScaling.swift in Sources */,
+				E197A9FD2C60A5670010C1D3 /* View+Extension.swift in Sources */,
 				E1F430172C27271400ECB73E /* MatchedGeometryEffectTestView.swift in Sources */,
 				E12125F72C27257400D14B3C /* ContentView.swift in Sources */,
+				E197A9E72C60A34D0010C1D3 /* BoundingBox.swift in Sources */,
+				E197A9F62C60A4C70010C1D3 /* EditPointFrame.swift in Sources */,
+				E197A9E92C60A3890010C1D3 /* EditFormType.swift in Sources */,
+				E197A9F32C60A49F0010C1D3 /* EditPointMark.swift in Sources */,
+				E197A9EC2C60A3E90010C1D3 /* EditPointsFramedRectangle.swift in Sources */,
+				E197A9EE2C60A42B0010C1D3 /* MovingDashFramedRectangle.swift in Sources */,
 				E16F0D122C3E5C66006478C2 /* BookShapeTestView.swift in Sources */,
 				E12125F52C27257400D14B3C /* PlaygroundSwiftUIApp.swift in Sources */,
 				E1F430142C27261F00ECB73E /* NavigationUtil.swift in Sources */,
+				E197A9F12C60A4870010C1D3 /* EditPoint.swift in Sources */,
+				E197A9E42C6081AC0010C1D3 /* BoundingBoxTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
