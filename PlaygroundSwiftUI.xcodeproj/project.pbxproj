@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11155E42C7642B40040D5EB /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11155E32C7642B40040D5EB /* NavigationTestView.swift */; };
 		E12125F52C27257400D14B3C /* PlaygroundSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12125F42C27257400D14B3C /* PlaygroundSwiftUIApp.swift */; };
 		E12125F72C27257400D14B3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12125F62C27257400D14B3C /* ContentView.swift */; };
 		E12125F92C27257500D14B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12125F82C27257500D14B3C /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E11155E32C7642B40040D5EB /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
 		E12125F12C27257400D14B3C /* PlaygroundSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12125F42C27257400D14B3C /* PlaygroundSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundSwiftUIApp.swift; sourceTree = "<group>"; };
 		E12125F62C27257400D14B3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				E197A9E32C6081AC0010C1D3 /* BoundingBoxTestView.swift */,
 				E155A3272C3FB10400CA42F1 /* CustomTextTestView.swift */,
 				E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */,
+				E11155E32C7642B40040D5EB /* NavigationTestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			files = (
 				E197A9F82C60A4E00010C1D3 /* EditPointPosition.swift in Sources */,
 				E155A3282C3FB10400CA42F1 /* CustomTextTestView.swift in Sources */,
+				E11155E42C7642B40040D5EB /* NavigationTestView.swift in Sources */,
 				E197A9FA2C60A4F90010C1D3 /* EditPointScaling.swift in Sources */,
 				E197A9FD2C60A5670010C1D3 /* View+Extension.swift in Sources */,
 				E1F430172C27271400ECB73E /* MatchedGeometryEffectTestView.swift in Sources */,
@@ -546,7 +550,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -576,7 +580,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

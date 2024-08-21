@@ -8,17 +8,21 @@
 //
 
 import SwiftUI
+import Observation
 
 
 // MARK: - NavigationRouter
-final class NavigationRouter: ObservableObject {
-    @MainActor @Published var items: [NavigationItem] = []
+@Observable final class NavigationRouter {
+    @MainActor var items: [NavigationItem] = []
     
     enum NavigationItem: Hashable {
         case matchedGeometryEffectTest
         case bookShapeTest
         case customTextTest
         case boundingBoxTest
+        case navigationTest
+        case pushSubView1
+        case pushSubView2
     }
 }
 
@@ -37,8 +41,29 @@ struct NavigationDestination: ViewModifier {
                     CustomTextTestView()
                 case .boundingBoxTest:
                     BoundingBoxTestView()
+                case .navigationTest:
+                    NavigationTestView()
+                case .pushSubView1:
+                    PushSubView1()
+                case .pushSubView2:
+                    PushSubView2()
                 }
             }
+    }
+}
+
+
+// MARK: - Environment Setting
+/// EnvironmentKey
+fileprivate struct NavigationRouterKey: EnvironmentKey {
+    static let defaultValue = NavigationRouter()
+}
+
+/// EnvironmentValue
+extension EnvironmentValues {
+    var navigationRouter: NavigationRouter {
+        get { self[NavigationRouterKey.self] }
+        set { self[NavigationRouterKey.self] = newValue }
     }
 }
 

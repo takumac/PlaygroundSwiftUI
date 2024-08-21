@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     // NavigationRouter
-    @StateObject var router = NavigationRouter()
+    @State var router = NavigationRouter()
     
     var body: some View {
         NavigationStack(path: $router.items) {
@@ -32,13 +32,17 @@ struct ContentView: View {
                         router.items.append(.boundingBoxTest)
                     }
                     Spacer().frame(height: 20)
+                    Button("NavigationTest") {
+                        router.items.append(.navigationTest)
+                    }
+                    Spacer().frame(height: 20)
                 }
             }
             .setNavigationDestination()
             .navigationTitle("HOME")
             .navigationBarTitleDisplayMode(.inline)
         }
-        .environmentObject(router)
+        .environment(\.navigationRouter, router)
     }
 }
 
