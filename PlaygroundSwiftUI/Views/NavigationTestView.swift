@@ -151,7 +151,7 @@ struct ModalSubView1: View {
     var body: some View {
         NavigationStack(path: $router.items) {
             ZStack {
-                Color.purple
+                Color.gray
                     .opacity(0.8)
                     .ignoresSafeArea()
                 VStack(spacing: 30) {
@@ -195,7 +195,7 @@ struct ModalSubView2: View {
     var body: some View {
         NavigationStack(path: $router.items) {
             ZStack {
-                Color.pink
+                Color.brown
                     .opacity(0.8)
                     .ignoresSafeArea()
                 VStack(spacing: 30) {
