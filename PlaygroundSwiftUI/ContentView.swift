@@ -36,6 +36,10 @@ struct ContentView: View {
                         router.items.append(.navigationTest)
                     }
                     Spacer().frame(height: 20)
+                    Button("ObservationText") {
+                        router.items.append(.observationText)
+                    }
+                    Spacer().frame(height: 20)
                 }
             }
             .setNavigationDestination()
