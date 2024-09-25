@@ -27,6 +27,10 @@ struct NavigationTestView: View {
                 Button("Push SubView2") {
                     router.items.append(.pushSubView2)
                 }
+                Button("Push SubView 1 to 2") {
+                    router.items.append(.pushSubView1)
+                    router.items.append(.pushSubView2)
+                }
                 Button("Modal SubView1") {
                     showModal1 = true
                 }
@@ -70,6 +74,10 @@ struct PushSubView1: View {
                     router.items.append(.navigationTest)
                 }
                 Button("Push SubView2") {
+                    router.items.append(.pushSubView2)
+                }
+                Button("Push SubView 1 to 2") {
+                    router.items.append(.pushSubView1)
                     router.items.append(.pushSubView2)
                 }
                 Button("Modal SubView1") {
@@ -116,6 +124,10 @@ struct PushSubView2: View {
                 }
                 Button("Push SubView1") {
                     router.items.append(.pushSubView1)
+                }
+                Button("Push SubView 1 to 2") {
+                    router.items.append(.pushSubView1)
+                    router.items.append(.pushSubView2)
                 }
                 Button("Modal SubView1") {
                     showModal1 = true
@@ -166,6 +178,10 @@ struct ModalSubView1: View {
                     Button("Push SubView2") {
                         router.items.append(.pushSubView2)
                     }
+                    Button("Push SubView 1 to 2") {
+                        router.items.append(.pushSubView1)
+                        router.items.append(.pushSubView2)
+                    }
                     Button("Modal SubView1") {
                         showModal1 = true
                     }
@@ -208,6 +224,10 @@ struct ModalSubView2: View {
                         router.items.append(.pushSubView1)
                     }
                     Button("Push SubView2") {
+                        router.items.append(.pushSubView2)
+                    }
+                    Button("Push SubView 1 to 2") {
+                        router.items.append(.pushSubView1)
                         router.items.append(.pushSubView2)
                     }
                     Button("Modal SubView1") {
