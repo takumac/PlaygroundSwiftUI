@@ -36,8 +36,12 @@ struct ContentView: View {
                         router.items.append(.navigationTest)
                     }
                     Spacer().frame(height: 20)
-                    Button("ObservationText") {
-                        router.items.append(.observationText)
+                    Button("ObservationTest") {
+                        router.items.append(.observationTest)
+                    }
+                    Spacer().frame(height: 20)
+                    Button("LoadingDialogTest") {
+                        router.items.append(.loadingDialogTest)
                     }
                     Spacer().frame(height: 20)
                 }

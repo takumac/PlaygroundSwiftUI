@@ -23,7 +23,8 @@ import Observation
         case navigationTest
         case pushSubView1
         case pushSubView2
-        case observationText
+        case observationTest
+        case loadingDialogTest
     }
 }
 
@@ -48,8 +49,10 @@ struct NavigationDestination: ViewModifier {
                     PushSubView1()
                 case .pushSubView2:
                     PushSubView2()
-                case .observationText:
+                case .observationTest:
                     ObservationTestView()
+                case .loadingDialogTest:
+                    LoadingDialogTextView()
                 }
             }
     }

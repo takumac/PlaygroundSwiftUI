@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2ACDF52CA39BEA0058A960 /* LoadingDialogTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2ACDF42CA39BEA0058A960 /* LoadingDialogTextView.swift */; };
+		BA2ACDF72CA3A1100058A960 /* Task+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2ACDF62CA3A1100058A960 /* Task+Extension.swift */; };
 		E11155E42C7642B40040D5EB /* NavigationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11155E32C7642B40040D5EB /* NavigationTestView.swift */; };
 		E11155E62C7718A30040D5EB /* ObservationTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11155E52C7718A30040D5EB /* ObservationTestView.swift */; };
 		E12125F52C27257400D14B3C /* PlaygroundSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12125F42C27257400D14B3C /* PlaygroundSwiftUIApp.swift */; };
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA2ACDF42CA39BEA0058A960 /* LoadingDialogTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDialogTextView.swift; sourceTree = "<group>"; };
+		BA2ACDF62CA3A1100058A960 /* Task+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Extension.swift"; sourceTree = "<group>"; };
 		E11155E32C7642B40040D5EB /* NavigationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestView.swift; sourceTree = "<group>"; };
 		E11155E52C7718A30040D5EB /* ObservationTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationTestView.swift; sourceTree = "<group>"; };
 		E12125F12C27257400D14B3C /* PlaygroundSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,6 +211,7 @@
 		E197A9FB2C60A5490010C1D3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BA2ACDF62CA3A1100058A960 /* Task+Extension.swift */,
 				E197A9FC2C60A5670010C1D3 /* View+Extension.swift */,
 			);
 			path = Extensions;
@@ -227,6 +232,7 @@
 				E197A9E52C60A3200010C1D3 /* BoundingBox */,
 				E197A9E32C6081AC0010C1D3 /* BoundingBoxTestView.swift */,
 				E155A3272C3FB10400CA42F1 /* CustomTextTestView.swift */,
+				BA2ACDF42CA39BEA0058A960 /* LoadingDialogTextView.swift */,
 				E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */,
 				E11155E32C7642B40040D5EB /* NavigationTestView.swift */,
 				E11155E52C7718A30040D5EB /* ObservationTestView.swift */,
@@ -364,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2ACDF52CA39BEA0058A960 /* LoadingDialogTextView.swift in Sources */,
 				E197A9F82C60A4E00010C1D3 /* EditPointPosition.swift in Sources */,
 				E155A3282C3FB10400CA42F1 /* CustomTextTestView.swift in Sources */,
 				E11155E42C7642B40040D5EB /* NavigationTestView.swift in Sources */,
@@ -376,6 +383,7 @@
 				E197A9E92C60A3890010C1D3 /* EditFormType.swift in Sources */,
 				E197A9F32C60A49F0010C1D3 /* EditPointMark.swift in Sources */,
 				E197A9EC2C60A3E90010C1D3 /* EditPointsFramedRectangle.swift in Sources */,
+				BA2ACDF72CA3A1100058A960 /* Task+Extension.swift in Sources */,
 				E197A9EE2C60A42B0010C1D3 /* MovingDashFramedRectangle.swift in Sources */,
 				E16F0D122C3E5C66006478C2 /* BookShapeTestView.swift in Sources */,
 				E12125F52C27257400D14B3C /* PlaygroundSwiftUIApp.swift in Sources */,
