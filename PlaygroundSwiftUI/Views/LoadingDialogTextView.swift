@@ -95,10 +95,8 @@ struct ProgressView2: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.gray.opacity(0.7))
-        .onAppear {
-            offsetYForBounce = -20.0
-        }
         .task {
+            offsetYForBounce = -20.0
             await startShaking()
         }
     }
