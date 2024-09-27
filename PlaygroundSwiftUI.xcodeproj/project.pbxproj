@@ -31,6 +31,9 @@
 		E197A9F82C60A4E00010C1D3 /* EditPointPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9F72C60A4DF0010C1D3 /* EditPointPosition.swift */; };
 		E197A9FA2C60A4F90010C1D3 /* EditPointScaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9F92C60A4F90010C1D3 /* EditPointScaling.swift */; };
 		E197A9FD2C60A5670010C1D3 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197A9FC2C60A5670010C1D3 /* View+Extension.swift */; };
+		E19FC8B22CA682CF00068873 /* PagingTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19FC8B12CA682CF00068873 /* PagingTestView.swift */; };
+		E19FC8B42CA717A300068873 /* CarouselTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19FC8B32CA717A300068873 /* CarouselTestView.swift */; };
+		E19FC8B62CA71F8E00068873 /* ScrollTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19FC8B52CA71F8E00068873 /* ScrollTestView.swift */; };
 		E1F430142C27261F00ECB73E /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F430132C27261F00ECB73E /* NavigationUtil.swift */; };
 		E1F430172C27271400ECB73E /* MatchedGeometryEffectTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */; };
 /* End PBXBuildFile section */
@@ -80,6 +83,9 @@
 		E197A9F72C60A4DF0010C1D3 /* EditPointPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPointPosition.swift; sourceTree = "<group>"; };
 		E197A9F92C60A4F90010C1D3 /* EditPointScaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPointScaling.swift; sourceTree = "<group>"; };
 		E197A9FC2C60A5670010C1D3 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		E19FC8B12CA682CF00068873 /* PagingTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingTestView.swift; sourceTree = "<group>"; };
+		E19FC8B32CA717A300068873 /* CarouselTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTestView.swift; sourceTree = "<group>"; };
+		E19FC8B52CA71F8E00068873 /* ScrollTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestView.swift; sourceTree = "<group>"; };
 		E1F430132C27261F00ECB73E /* NavigationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
 		E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,11 +237,14 @@
 				E16F0D112C3E5C66006478C2 /* BookShapeTestView.swift */,
 				E197A9E52C60A3200010C1D3 /* BoundingBox */,
 				E197A9E32C6081AC0010C1D3 /* BoundingBoxTestView.swift */,
+				E19FC8B32CA717A300068873 /* CarouselTestView.swift */,
 				E155A3272C3FB10400CA42F1 /* CustomTextTestView.swift */,
 				BA2ACDF42CA39BEA0058A960 /* LoadingDialogTextView.swift */,
 				E1F430162C27271400ECB73E /* MatchedGeometryEffectTestView.swift */,
 				E11155E32C7642B40040D5EB /* NavigationTestView.swift */,
 				E11155E52C7718A30040D5EB /* ObservationTestView.swift */,
+				E19FC8B12CA682CF00068873 /* PagingTestView.swift */,
+				E19FC8B52CA71F8E00068873 /* ScrollTestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2ACDF52CA39BEA0058A960 /* LoadingDialogTextView.swift in Sources */,
+				E19FC8B42CA717A300068873 /* CarouselTestView.swift in Sources */,
 				E197A9F82C60A4E00010C1D3 /* EditPointPosition.swift in Sources */,
 				E155A3282C3FB10400CA42F1 /* CustomTextTestView.swift in Sources */,
 				E11155E42C7642B40040D5EB /* NavigationTestView.swift in Sources */,
@@ -385,11 +395,13 @@
 				E197A9EC2C60A3E90010C1D3 /* EditPointsFramedRectangle.swift in Sources */,
 				BA2ACDF72CA3A1100058A960 /* Task+Extension.swift in Sources */,
 				E197A9EE2C60A42B0010C1D3 /* MovingDashFramedRectangle.swift in Sources */,
+				E19FC8B62CA71F8E00068873 /* ScrollTestView.swift in Sources */,
 				E16F0D122C3E5C66006478C2 /* BookShapeTestView.swift in Sources */,
 				E12125F52C27257400D14B3C /* PlaygroundSwiftUIApp.swift in Sources */,
 				E1F430142C27261F00ECB73E /* NavigationUtil.swift in Sources */,
 				E197A9F12C60A4870010C1D3 /* EditPoint.swift in Sources */,
 				E11155E62C7718A30040D5EB /* ObservationTestView.swift in Sources */,
+				E19FC8B22CA682CF00068873 /* PagingTestView.swift in Sources */,
 				E197A9E42C6081AC0010C1D3 /* BoundingBoxTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

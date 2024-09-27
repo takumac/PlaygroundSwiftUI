@@ -44,7 +44,20 @@ struct ContentView: View {
                         router.items.append(.loadingDialogTest)
                     }
                     Spacer().frame(height: 20)
+                    Button("PagingTest") {
+                        router.items.append(.pagingTest)
+                    }
+                    Spacer().frame(height: 20)
+                    Button("CarouselTest") {
+                        router.items.append(.carouselTest)
+                    }
+                    Spacer().frame(height: 20)
+                    Button("ScrollTest") {
+                        router.items.append(.scrollViewTest)
+                    }
+                    Spacer().frame(height: 20)
                 }
+                .containerRelativeFrame(.horizontal)
             }
             .setNavigationDestination()
             .navigationTitle("HOME")
